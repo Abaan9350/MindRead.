@@ -73,3 +73,64 @@ if option == "yes":
                 option = input("Is he good at video games?\n")
                 if option == "yes":
                     print("You are thinking of Amruthesh!")
+
+else: #this is for lediz
+    option = input("Does she wear spectacles?\n")
+    if option == "yes":
+        option = input("Is she in any college clubs?\n")
+        if option == "yes":
+            option = input("Does she go to the gym?\n")
+            if option == "yes":
+                print("You are thinking of Kavya!")
+            else:
+                option = input("Is she good in academics?\n")
+                if option == "yes":
+                    option = input("Extrovert?")
+                    if option == "yes":
+                        option = input("Is she known for singing?\n")
+                        if option == "yes":
+                            option = input("Is she in the college choir team?\n")
+                            if option == "yes":
+                                print("You are thinking of Janaki!")
+                            else:
+                                print("You are thinking of Vedshri!")
+                        else:
+                            print("You are thinking of Vedshri!")
+        else: #this is for not in college clubs
+            option = input("Is she good in academics?\n")
+            if option == "yes":
+                option = input("Does she have a pet fish?\n")
+                if option == "yes":
+                    print("You are thinking of Ketki!")
+                else: #not a pet fish
+                    option = input("Extrovert?\n")
+                    if option == "yes":
+                       print("")
+                    else:
+                        print("You are thinking of Aastha!")
+
+    else:
+        option = input("Is she in any college clubs?\n")
+        if option == "yes":
+            option = input("Is she known for singing?\n")
+            if option == "yes":
+                option = input("Is she good in academics? \n")
+                if option == "yes":
+                    option = input("")
+
+        else:
+            option = input("Does she have a pet cat?\n")
+            if option == "yes":
+                print("You are thinking of Fareen!")
+            else:
+                option = input("Extrovert?\n")
+                if option == "yes":
+                    print("You are thinking of Archi!")
+
+
+
+
+
+
+
+
