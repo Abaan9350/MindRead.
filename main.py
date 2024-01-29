@@ -33,7 +33,7 @@ if option == "yes":
                         else:
                             option = input("Does he wear shirts frequently?\n")
 
-        else:
+        else: #not scolded
             option = input("Is he good at football?\n")
             if option == "yes":
                 print("You are thinking of Soham Desai!")
@@ -64,7 +64,7 @@ if option == "yes":
                 if option == "yes":
                     print("You are thinking of Aryan!")
     else:
-        option = input("Does he help everyone with assigments?\n")
+        option = input("Does he help everyone with assignments?\n")
         if option == "yes":
             print("You are thinking of Sameer!")
         else:
@@ -73,6 +73,12 @@ if option == "yes":
                 option = input("Is he good at video games?\n")
                 if option == "yes":
                     print("You are thinking of Amruthesh!")
+            else:
+                option = input("Good at video games?\n")
+                if option == "yes":
+                    option = input("Autistic?\n")
+                    if option == "yes":
+                        print("You are thinking of Uday!")
 
 else: #this is for lediz
     option = input("Does she wear spectacles?\n")
