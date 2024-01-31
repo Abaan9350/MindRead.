@@ -79,6 +79,11 @@ if option == "yes":
                     option = input("Autistic?\n")
                     if option == "yes":
                         print("You are thinking of Uday!")
+                else:
+                    option = input("Is he really good at football?\n")
+                    if option == "yes":
+                        print("You are thinking of Sai!")
+                        
 
 else: #this is for lediz
     option = input("Does she wear spectacles?\n")
