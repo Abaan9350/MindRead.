@@ -17,6 +17,43 @@ if option == "yes":
                         print("You are thinking of Vedant Shetty")
                     else:
                         print("You are thinking of Ganesh!")
+            else:
+                option = input("Does he go the gym?\n")
+                if option == "yes":
+                    option = input("Does he sleep in class regularly?\n")
+                    if option == "yes":
+                        option = input("Is he good at video games?\n")
+                        if option == "yes":
+                            print("You are thinking of Anish Masurkar!")
+                else:
+                    option = input("Does he wear shirts regularly?\n")
+                    if option == "yes":
+                        option = input("Nashik?\n")
+                        if option == "yes":
+                            print("You are thinking of Akshar!")
+        else:
+            option = input("Is he really good at maths?\n")
+            if option == "yes":
+                print("You are thinking of Ashish!")
+            else:
+                option = input("Is he good at football?\n")
+                if option == "yes":
+                    print("You are thinking of Soham Desai!")
+                else:
+                    option = input("Does he go the gym?\n")
+                    if option == "yes":
+                        option = input("Does he sleep in class regularly?\n")
+                        if option == "yes":
+                            option = input("Is he good at video games?\n")
+                            if option == "yes":
+                                print("You are thinking of Anish Masurkar!")
+                    else:
+                        option = input("Does he wear shirts regularly?\n")
+                        if option == "yes":
+                            option = input("Nashik?\n")
+                            if option == "yes":
+                                print("You are thinking of Akshar!")
+
 
     else:
         option = input("Does he get scolded in class?\n")
