@@ -63,7 +63,11 @@ if option == "yes":
         if option == "yes":
             option = input("Does he wear shirts usually? \n")
             if option == "yes":
-                option = input("")
+                option = input("Is he tall?\n")
+                if option == "yes":
+                    option = input("Accident?")
+                    if option == "yes":
+                        print("You are thinking of Sahil Suryavanshi!")
             else:
                 option = input("Is he good at football?\n")
                 if option == "yes":
